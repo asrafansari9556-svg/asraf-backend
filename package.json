@@ -1,0 +1,18 @@
+{
+  "name": "asraf-ai-backend-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reference secure backend for ASRAF AI (Section 6). Holds the real AI provider API key (Groq, free tier) so the Android app never does.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
